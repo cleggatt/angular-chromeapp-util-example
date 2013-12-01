@@ -1,0 +1,16 @@
+{
+  "name": "angular-chromeapp-util-example",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cleggatt/angular-chromeapp-util-example.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "~1.2.7",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-bower-task": "~0.3.2"
+  }
+}

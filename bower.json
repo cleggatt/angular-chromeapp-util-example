@@ -1,0 +1,10 @@
+{
+  "name": "angular-chromeapp-util-example",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.0.8",
+    "angular-chromeapp-util": "https://github.com/cleggatt/angular-chromeapp-util.git"
+  }
+}

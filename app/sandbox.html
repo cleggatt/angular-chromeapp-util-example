@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app='sandbox'>
+<body>
+    <div ng-controller='SandboxCtrl'>
+        <form ng-submit='get()'>
+            <input type='text' ng-model='keyToGet'>
+            <input type='submit' value='Get'>
+            <span ng-show="keyGot">{{keyGot}}  is  {{valueGot}}</span>
+        </form>
+        <form ng-submit='add()'>
+            <input type='text' ng-model='keyToAdd'>
+            <input type='text' ng-model='valueToAdd'>
+            <input type='submit' value='Add'>
+        </form>
+        <form ng-submit='remove()'>
+            <input type='text' ng-model='keyToRemove'>
+            <input type='submit' value='Remove'>
+        </form>
+    </div>
+    <script src="js/lib/angular/angular.js"></script>
+    <script src="js/lib/angular-chromeapp-util/general.js"></script>
+    <script src="js/lib/angular-chromeapp-util/storage.js"></script>
+    <script src="js/sandbox.js"></script>
+</body>
+</html>

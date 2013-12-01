@@ -1,0 +1,5 @@
+.idea/tasks.xml
+.idea/workspace.xml
+bower_components/
+node_modules/
+app/js/lib/

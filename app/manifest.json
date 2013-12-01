@@ -1,0 +1,16 @@
+{
+    "name": "angular-chromeapp-util-example",
+    "description": "Example application using angular-chromeapp-util",
+    "version": "0.1.0",
+    "app": {
+        "background": {
+            "scripts": ["js/background.js"]
+        }
+    },
+    "permissions": [
+        "storage"
+    ],
+    "sandbox": {
+        "pages": ["sandbox.html"]
+    }
+}
