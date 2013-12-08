@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('main', ['cleggatt.chromeapp-util.general', 'cleggatt.chromeapputil.storageServer']).
+angular.module('main', ['cleggatt.chromeapputil.storageServer']).
 
 run(['clcChromeStorageServer', function (storageServer) {
-        storageServer.init();
+    storageServer.init();
 }]);

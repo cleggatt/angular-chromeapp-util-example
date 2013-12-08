@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "angular": "~1.0.8",
+    "angular": "1.2.4",
     "angular-chromeapp-util": "https://github.com/cleggatt/angular-chromeapp-util.git"
   }
 }
